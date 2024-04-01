@@ -1,0 +1,384 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Globale {
+  background-color: #fcfbfc;
+}
+.rightside {
+  background-color: #fcfbfc;
+}
+.dashboad {
+  position: relative;
+  grid-template-columns: repeat(11, 1fr);
+  background-color: #1d1042;
+  height: 154vh;
+  width: 280px;
+}
+.contente {
+  position: absolute;
+  display: grid;
+}
+.text {
+  display: flex;
+  gap: 10px;
+}
+.txt {
+  position: relative;
+  color: whitesmoke;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10%;
+  background: #684cb6;
+  min-width: 100px;
+}
+hr {
+  width: 150px;
+  align-items: center;
+  right: 50%;
+}
+.Settings .list {
+  position: relative;
+  top: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  list-style: none;
+}
+.Settings a {
+  text-decoration: none;
+  color: white;
+  gap: 12px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+li a:hover {
+  background-color: #020202;
+  color: rgb(174, 95, 219);
+  width: 150px;
+}
+.Settings li.btn {
+  display: block;
+  margin: 30px;
+  padding: 10px;
+  margin-left: -12px;
+  margin-top: -4px;
+}
+.Settings li.btn .button {
+  position: absolute;
+  color: white;
+  background-color: #684cb6;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 13px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 166px;
+}
+.rightside {
+  position: absolute;
+  display: inline-flex;
+  left: 25%;
+  top: 15px;
+  height: 100%;
+}
+.text2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-size: 16px;
+  width: 16px;
+}
+.text2 > .h1 {
+  font-size: 30px;
+  position: absolute;
+  left: 150px;
+  width: 348px;
+}
+.text2 > .p1 {
+  font-size: 13px;
+  color: #b8b9bd;
+  position: absolute;
+  left: 150px;
+  top: 48px;
+  width: 200px;
+  width: 261px;
+}
+.addmember {
+  display: grid;
+  margin: 11%;
+  padding: 9px;
+  margin-left: 300px;
+  margin-top: 4px;
+}
+.addmember .bt {
+  position: absolute;
+  color: white;
+  background-color: #000000;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 10px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 161px;
+  left: 825px;
+}
+.elements {
+  display: grid;
+  position: absolute;
+  top: 18%;
+}
+.elements > ul {
+  display: inline-flex;
+  font-size: 10px;
+  gap: 80px;
+  color: #b8b9bd;
+  text-decoration: none;
+  list-style: none;
+  float: left;
+  width: 200px;
+}
+.elements > ul li {
+  display: grid;
+  padding-block-end: 20px;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.elements > ul div.leftpart {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: space-between;
+  margin-left: 150px;
+  gap: 50px;
+}
+.elements > ul li.pic > .imma {
+  display: grid;
+  position: relative;
+  right: 11px;
+  border-radius: 50%;
+  width: 35px;
+  height: 30px;
+  margin: -11px;
+}
+.elements > ul li.pic div.mem {
+  position: relative;
+  right: -2px;
+  width: 70px;
+}
+.container {
+  display: grid;
+  position: relative;
+  background-color: #fcfbfc;
+  top: 40%;
+  right: 40%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.container .todo {
+  margin: 76px;
+  position: relative;
+  right: -4px;
+  top: 16px;
+}
+.container .todo > h2 {
+  font-size: 14px;
+  color: #858a93;
+  border-radius: 12px;
+  background-color: #f4f6f8;
+  padding: 12px;
+  width: 287px;
+  position: relative;
+  right: 17px;
+}
+.container .inprog {
+  margin: 76px;
+  position: relative;
+  right: -4px;
+  top: 16px;
+}
+.container .inprog > h2 {
+  font-size: 14px;
+  color: #858a93;
+  border-radius: 12px;
+  background-color: #f4f6f8;
+  padding: 12px;
+  width: 287px;
+  position: relative;
+  right: 17px;
+}
+.container .compited {
+  margin: 76px;
+  position: relative;
+  right: -4px;
+  top: 16px;
+}
+.container .compited > h2 {
+  font-size: 14px;
+  color: #858a93;
+  border-radius: 12px;
+  background-color: #f4f6f8;
+  padding: 12px;
+  width: 287px;
+  position: relative;
+  right: 17px;
+}
+.container .design {
+  position: relative;
+  margin: -48px;
+  left: 29%;
+  border-radius: 20px;
+  background-color: #ffffff;
+  width: 298px;
+  height: 280px;
+  text-align: start;
+}
+.container .design > .td {
+  width: 250px;
+  position: relative;
+  left: 8%;
+  top: 7%;
+}
+.container .design > h3 {
+  position: relative;
+  top: 20px;
+  left: 8%;
+  font-size: 16px;
+}
+.container .design > h4 {
+  color: #b8b9bd;
+  position: relative;
+  top: 20px;
+  left: 8%;
+  font-size: 11px;
+}
+.container .design2 {
+  position: relative;
+  margin: -48px;
+  left: 29%;
+  border-radius: 20px;
+  background-color: #ffffff;
+  width: 298px;
+  height: 280px;
+  text-align: start;
+}
+.container .design2 > .tdd {
+  width: 250px;
+  position: relative;
+  left: 8%;
+  top: 7%;
+}
+.container .design2 > h3 {
+  position: relative;
+  top: 20px;
+  left: 8%;
+  font-size: 16px;
+}
+.container .design2 > h4 {
+  color: #b8b9bd;
+  position: relative;
+  top: 20px;
+  left: 8%;
+  font-size: 11px;
+}
+.container .testing {
+  position: relative;
+  margin: -48px;
+  left: 30%;
+  border-radius: 20px;
+  background-color: #ffffff;
+  width: 252px;
+  height: 141px;
+  text-align: start;
+}
+.container .testing > h3 {
+  position: relative;
+  top: 10px;
+  font-size: 16px;
+  left: 10px;
+}
+.container .testing > h4 {
+  color: #b8b9bd;
+  position: relative;
+  top: 10px;
+  font-size: 11px;
+  left: 10px;
+}
+.container .testing2 {
+  position: relative;
+  margin: -48px;
+  left: 30%;
+  border-radius: 20px;
+  background-color: #ffffff;
+  width: 292px;
+  height: 141px;
+  text-align: start;
+  top: 95px;
+}
+.container .testing2 > h3 {
+  position: relative;
+  top: 10px;
+  font-size: 16px;
+  left: 10px;
+}
+.container .testing2 > h4 {
+  color: #b8b9bd;
+  position: relative;
+  top: 10px;
+  font-size: 11px;
+  left: 10px;
+}
+
+.container .addtask {
+  position: relative;
+  margin: 62px;
+  left: 3%;
+}
+.container .addt {
+  position: absolute;
+  bottom: 45px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border-style: dashed;
+  border-radius: 15px;
+  background-color: #f2f4f5;
+  color: #7d8088;
+  font-size: 20px;
+  width: 250px;
+  height: 40px;
+}
+.container .design3 {
+  position: relative;
+  margin: -48px;
+  left: 29%;
+  border-radius: 20px;
+  background-color: #ffffff;
+  width: 298px;
+  height: 280px;
+  text-align: start;
+}
+.container .design3 > .tddd {
+  width: 250px;
+  position: relative;
+  left: 8%;
+  top: 7%;
+}
+.container .design3 > h3 {
+  position: relative;
+  top: 20px;
+  left: 8%;
+  font-size: 16px;
+}
+.container .design3 > h4 {
+  color: #b8b9bd;
+  position: relative;
+  top: 20px;
+  left: 8%;
+  font-size: 11px;
+}
